@@ -41,7 +41,7 @@
           <!--start title and slogan-->
           <div id="title-slogan">
             <?php if($site_name): ?>
-              <?php print $sitename; ?>
+              <?php //print $sitename; ?>
             <?php endif; ?>
 
             <?php if($site_slogan): ?>
