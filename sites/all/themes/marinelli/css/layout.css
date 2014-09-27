@@ -1,4 +1,4 @@
-/*
+﻿/*
 *
 *
 *	site-specific layout statements
@@ -121,7 +121,11 @@ body,html{
 	position: relative;
 	z-index: 1;	/* follows the z-index order of primary menu and advertise (to solve ie7 z-index BUG )*/
 }
-
+#contentWrapper img
+{
+	width:300px;
+	height:300px;
+}
 .breadcrumb{ /* breadcrumb */
 	padding-bottom: 5px;
 	border-bottom: 1px dashed #ccc;
