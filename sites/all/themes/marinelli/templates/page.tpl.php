@@ -157,10 +157,16 @@
           <!--start drupal content-->
           <div id="content">
             <?php print render($page['content']); ?>
+            
           </div>
           <!--end drupal content-->
+		  <?php
+  			$theme_image_path=drupal_get_path('theme', 'marinelli');
+			?>
+         <a href="#"><img src="<?php echo $theme_image_path; ?>/twitter-4-128.png" style="width:50px;height:50px;"  alt="twiter" ></a>
+         <a href="#"><img src="<?php echo $theme_image_path; ?>/facebook500.png" style="width:40px;height:40px;"  alt="twiter" ></a>
+         <a href="#"><img src="<?php echo $theme_image_path; ?>/linkedin-logo.png" style="width:70px;height:70px;"  alt="twiter" ></a>
 
-          <?php print $feed_icons ?>
 
           <?php if($page['undernode']): ?>
             <!--start undernode-->
@@ -234,12 +240,14 @@
   <?php if($page['footer'] || $page['utility_bottom']): ?>
     <!--start footer-->
     <div id="footer" class="outsidecontent">
-      <?php print render($page['footer']); ?>
+      <?php //print render($page['footer']); 
+     	echo "<span>Developed By <a href='http://www.webtechlink.in'>WEBTECHLINK</a></span>"; 
+	  ?>
 
       <?php if($page['utility_bottom']): ?>
         <!--start bottom utility box-->
         <div class="utility" id="bottomUtility">
-          <?php print render($page['utility_bottom']); ?>
+         <?php print render($page['utility_bottom']); ?>
         </div>
         <!--end bottom utility box-->
       <?php endif; ?>
