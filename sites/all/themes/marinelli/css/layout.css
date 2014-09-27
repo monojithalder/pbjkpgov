@@ -8,7 +8,11 @@
 
 /*	Structure
 -------------------------------------------------------------- */
-
+.test img
+{
+	width:50px;
+	height:50px;
+}
 body,html{
 	margin:0px;
 	padding:0px;
@@ -121,7 +125,7 @@ body,html{
 	position: relative;
 	z-index: 1;	/* follows the z-index order of primary menu and advertise (to solve ie7 z-index BUG )*/
 }
-#contentWrapper img
+#content img
 {
 	width:300px;
 	height:300px;

@@ -163,9 +163,9 @@
 		  <?php
   			$theme_image_path=drupal_get_path('theme', 'marinelli');
 			?>
-         <a href="#"><img src="<?php echo $theme_image_path; ?>/twitter-4-128.png" style="width:50px;height:50px;"  alt="twiter" ></a>
+ <!--        <a href="#"><img src="<?php echo $theme_image_path; ?>/twitter-4-128.png" style="width:50px;height:50px;"  alt="twiter" ></a>
          <a href="#"><img src="<?php echo $theme_image_path; ?>/facebook500.png" style="width:40px;height:40px;"  alt="twiter" ></a>
-         <a href="#"><img src="<?php echo $theme_image_path; ?>/linkedin-logo.png" style="width:70px;height:70px;"  alt="twiter" ></a>
+         <a href="#"><img src="<?php echo $theme_image_path; ?>/youtube-4-128.png" style="width:50px;height:50px;"  alt="twiter" ></a>!-->
 
 
           <?php if($page['undernode']): ?>
