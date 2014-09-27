@@ -68,7 +68,7 @@
 
   <?php if($mainmenu): ?>
     <!--start main menu-->
-    <div id="navigation-primary" class="sitemenu">
+    <div id="navigation-primary" class="sitemenu" style="margin-top:50px;">
       <?php print $mainmenu; ?>
     </div>
     <!--end main menu-->
