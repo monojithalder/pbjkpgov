@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the pbjkp_features feature.
+ */
+
+include_once 'pbjkp_features.features.inc';
